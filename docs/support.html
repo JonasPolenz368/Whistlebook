@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<title>Hilfe &amp; Kontakt — Whistlebook</title>
+<script>document.documentElement.className += ' js';</script>
+<style>
+  :root { --bg: #F2F2F7; --card: #FFFFFF; --ink: #1C1C1E; --muted: rgba(60,60,67,.62); --line: rgba(60,60,67,.18); --accent: #1F7A3D; --on-accent: #FFFFFF; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #000000; --card: #1C1C1E; --ink: #F2F2F7; --muted: rgba(235,235,245,.6); --line: rgba(84,84,88,.6); --accent: #4CC274; --on-accent: #000000; } }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; max-width: 760px; margin: 0 auto; padding: 32px 20px 80px; line-height: 1.6; color: var(--ink); background: var(--bg); -webkit-text-size-adjust: 100%; }
+  header.brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 15px; margin-bottom: 20px; }
+  header.brand a { color: var(--ink); text-decoration: none; }
+  header.brand .dot { width: 26px; height: 26px; border-radius: 7px; background: var(--accent); display: inline-block; }
+  h1 { font-size: 28px; line-height: 1.2; margin: 0 0 4px; letter-spacing: -0.01em; }
+  h2 { font-size: 19px; margin-top: 34px; }
+  h3 { font-size: 16px; margin: 22px 0 4px; }
+  p, li, address { font-size: 16px; }
+  .updated { color: var(--muted); font-size: 14px; margin: 0 0 24px; }
+  .summary { background: var(--card); border-radius: 16px; padding: 16px 18px; }
+  a { color: var(--accent); }
+  address { font-style: normal; }
+  table { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 14px; overflow: hidden; font-size: 14px; display: block; overflow-x: auto; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  th { font-weight: 600; }
+  .langbar { flex-wrap: wrap; gap: 8px; margin: 0 0 28px; padding-bottom: 18px; border-bottom: 1px solid var(--line); font-size: 14px; }
+  .langbar a { color: var(--ink); text-decoration: none; padding: 5px 12px; border-radius: 999px; background: var(--card); }
+  .langbar a.active { background: var(--accent); color: var(--on-accent); }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+  footer a { margin-right: 14px; }
+  /* Without JavaScript all language versions stay visible (accessibility). */
+  html.js section[data-lang] { display: none; }
+  html.js section[data-lang].active { display: block; }
+  html.js .langbar { display: flex; }
+  html:not(.js) .langbar { display: none; }
+</style>
+</head>
+<body>
+
+<header class="brand"><span class="dot"></span><a href="index.html">Whistlebook</a></header>
+
+<nav class="langbar">
+  <a href="#de" data-set="de" class="active">Deutsch</a>
+  <a href="#en" data-set="en">English</a>
+  <a href="#nl" data-set="nl">Nederlands</a>
+  <a href="#fr" data-set="fr">Français</a>
+  <a href="#es" data-set="es">Español</a>
+  <a href="#it" data-set="it">Italiano</a>
+</nav>
+
+<section data-lang="de" class="active">
+  <h1>Hilfe &amp; Kontakt</h1>
+  <p class="updated">Whistlebook für iPhone und Apple Watch</p>
+
+  <h2>Kontakt</h2>
+  <p>
+    Fragen, Fehler oder Wünsche? Schreib mir an
+    <a href="mailto:jonas.polenz@software-development.net?subject=Whistlebook">jonas.polenz@software-development.net</a>.
+    Hilfreich sind die App-Version (Einstellungen → ganz unten), dein Gerät und eine kurze
+    Beschreibung, was du gemacht hast. Schick bitte keine Berichte mit Namen von Spielern oder
+    anderen Personen mit.
+  </p>
+
+  <h2>Häufige Fragen</h2>
+
+  <h3>Die Apple Watch zeigt mein Spiel nicht auf dem iPhone an.</h3>
+  <p>
+    Öffne Whistlebook nach dem Spiel einmal auf dem iPhone und lass die Watch in der Nähe. Die
+    Watch überträgt das Spiel, sobald beide Geräte verbunden sind; nichts geht verloren, auch wenn
+    das ein paar Minuten dauert.
+  </p>
+
+  <h3>Was passiert, wenn die Watch während des Spiels neu startet?</h3>
+  <p>
+    Die Spieluhr wird aus Zeitstempeln berechnet. Nach dem Neustart zeigt die App wieder die
+    richtige Zeit, und alle bereits erfassten Ereignisse sind gespeichert.
+  </p>
+
+  <h3>Wie sichere ich meine Daten?</h3>
+  <p>
+    Unter „Einstellungen → Daten“ kannst du iCloud-Synchronisation einschalten und jederzeit einen
+    vollständigen Export erstellen.
+  </p>
+
+  <h3>Wie stelle ich einen Kauf wieder her?</h3>
+  <p>
+    Tippe in den Einstellungen auf „Käufe wiederherstellen“. Du musst mit demselben Apple-Konto
+    angemeldet sein, mit dem du gekauft hast.
+  </p>
+
+  <h3>Wie kündige ich mein Abonnement?</h3>
+  <p>
+    In den iOS-Einstellungen unter „Apple-ID → Abonnements → Whistlebook Pro“. Die Kündigung muss
+    spätestens 24 Stunden vor Ablauf der laufenden Periode erfolgen.
+  </p>
+
+  <h3>Mein Verband oder Landesverband fehlt.</h3>
+  <p>
+    Schreib mir, welcher Verband es ist und wo die Bestimmungen (Spielzeiten, Fristen,
+    Zeitstrafen, Berichtssystem) veröffentlicht sind. Bis dahin kannst du das nächstliegende
+    Profil wählen; Spielzeit-Vorlage und Fristen stellst du in den Einstellungen ein.
+  </p>
+
+  <h2>Rechtliches</h2>
+  <p>
+    <a href="impressum.html">Impressum</a> ·
+    <a href="privacy.html">Datenschutzerklärung</a> ·
+    <a href="terms.html">Nutzungsbedingungen</a>
+  </p>
+</section>
+<section data-lang="en">
+  <h1>Help &amp; contact</h1>
+  <p class="updated">Whistlebook for iPhone and Apple Watch</p>
+
+  <h2>Contact</h2>
+  <p>
+    Questions, bugs or wishes? Write to me at
+    <a href="mailto:jonas.polenz@software-development.net?subject=Whistlebook">jonas.polenz@software-development.net</a>.
+    It helps if you include the app version (Settings → at the very bottom), your device and a short
+    description of what you did. Please do not attach any reports containing names of players or
+    other people.
+  </p>
+
+  <h2>Frequently asked questions</h2>
+
+  <h3>The Apple Watch does not show my match on the iPhone.</h3>
+  <p>
+    After the match, open Whistlebook on the iPhone once and keep the Watch nearby. The Watch
+    transfers the match as soon as both devices are connected; nothing is lost, even if it takes a
+    few minutes.
+  </p>
+
+  <h3>What happens if the Watch restarts during a match?</h3>
+  <p>
+    The match clock is calculated from timestamps. After the restart the app shows the correct time
+    again, and all events already recorded are saved.
+  </p>
+
+  <h3>How do I back up my data?</h3>
+  <p>
+    Under “Settings → Data” you can turn on iCloud sync and create a complete export at any time.
+  </p>
+
+  <h3>How do I restore a purchase?</h3>
+  <p>
+    Tap “Restore purchases” in Settings. You must be signed in with the same Apple Account you used
+    to make the purchase.
+  </p>
+
+  <h3>How do I cancel my subscription?</h3>
+  <p>
+    In the iOS Settings under “Apple Account → Subscriptions → Whistlebook Pro”. Cancellation must
+    be made at least 24 hours before the end of the current period.
+  </p>
+
+  <h3>My association or regional association is missing.</h3>
+  <p>
+    Write to me which association it is and where its regulations (match durations, deadlines,
+    time penalties, report system) are published. Until then you can choose the closest profile;
+    you set the match duration template and deadlines in Settings.
+  </p>
+
+  <h2>Legal</h2>
+  <p>
+    <a href="impressum.html">Legal notice</a> ·
+    <a href="privacy.html">Privacy Policy</a> ·
+    <a href="terms.html">Terms of Use</a>
+  </p>
+</section>
+<section data-lang="nl">
+  <h1>Hulp &amp; contact</h1>
+  <p class="updated">Whistlebook voor iPhone en Apple Watch</p>
+
+  <h2>Contact</h2>
+  <p>
+    Vragen, fouten of wensen? Mail me op
+    <a href="mailto:jonas.polenz@software-development.net?subject=Whistlebook">jonas.polenz@software-development.net</a>.
+    Handig zijn de appversie (Instellingen → helemaal onderaan), je apparaat en een korte
+    beschrijving van wat je hebt gedaan. Stuur alsjeblieft geen rapporten mee met namen van
+    spelers of andere personen.
+  </p>
+
+  <h2>Veelgestelde vragen</h2>
+
+  <h3>De Apple Watch toont mijn wedstrijd niet op de iPhone.</h3>
+  <p>
+    Open Whistlebook na de wedstrijd één keer op de iPhone en houd de Watch in de buurt. De Watch
+    stuurt de wedstrijd door zodra beide apparaten verbonden zijn; er gaat niets verloren, ook als
+    dat een paar minuten duurt.
+  </p>
+
+  <h3>Wat gebeurt er als de Watch tijdens de wedstrijd opnieuw opstart?</h3>
+  <p>
+    De wedstrijdklok wordt berekend uit tijdstempels. Na het opnieuw opstarten toont de app weer de
+    juiste tijd, en alle al vastgelegde gebeurtenissen zijn bewaard.
+  </p>
+
+  <h3>Hoe maak ik een back-up van mijn gegevens?</h3>
+  <p>
+    Onder 'Instellingen → Gegevens' kun je iCloud-synchronisatie inschakelen en op elk moment een
+    volledige export maken.
+  </p>
+
+  <h3>Hoe herstel ik een aankoop?</h3>
+  <p>
+    Tik in de instellingen op 'Herstel aankopen'. Je moet zijn aangemeld met hetzelfde Apple Account
+    waarmee je hebt gekocht.
+  </p>
+
+  <h3>Hoe zeg ik mijn abonnement op?</h3>
+  <p>
+    In de iOS-instellingen onder 'Instellingen → Apple Account → Abonnementen → Whistlebook Pro'. De
+    opzegging moet uiterlijk 24 uur voor het einde van de lopende periode plaatsvinden.
+  </p>
+
+  <h3>Mijn bond of regionale bond ontbreekt.</h3>
+  <p>
+    Mail me welke bond het is en waar de bepalingen (speeltijden, termijnen, tijdstraffen,
+    rapportagesysteem) zijn gepubliceerd. Tot dan kun je het meest passende profiel kiezen;
+    de speeltijdsjabloon en de termijnen stel je in de instellingen in.
+  </p>
+
+  <h2>Juridisch</h2>
+  <p>
+    <a href="impressum.html">Colofon</a> ·
+    <a href="privacy.html">Privacyverklaring</a> ·
+    <a href="terms.html">Gebruiksvoorwaarden</a>
+  </p>
+</section>
+<section data-lang="fr">
+  <h1>Aide &amp; contact</h1>
+  <p class="updated">Whistlebook pour iPhone et Apple Watch</p>
+
+  <h2>Contact</h2>
+  <p>
+    Des questions, des erreurs ou des souhaits ? Écrivez-moi à
+    <a href="mailto:jonas.polenz@software-development.net?subject=Whistlebook">jonas.polenz@software-development.net</a>.
+    Il est utile d’indiquer la version de l’app (Réglages, tout en bas), votre appareil et une
+    brève description de ce que vous avez fait. N’envoyez pas de rapports contenant des noms de
+    joueurs ou d’autres personnes.
+  </p>
+
+  <h2>Questions fréquentes</h2>
+
+  <h3>L’Apple Watch n’affiche pas mon match sur l’iPhone.</h3>
+  <p>
+    Après le match, ouvrez une fois Whistlebook sur l’iPhone et gardez la Watch à proximité. La
+    Watch transmet le match dès que les deux appareils sont connectés ; rien n’est perdu, même si
+    cela prend quelques minutes.
+  </p>
+
+  <h3>Que se passe-t-il si la Watch redémarre pendant le match ?</h3>
+  <p>
+    Le chrono du match est calculé à partir d’horodatages. Après le redémarrage, l’app affiche de
+    nouveau le bon temps, et tous les événements déjà saisis sont enregistrés.
+  </p>
+
+  <h3>Comment sauvegarder mes données ?</h3>
+  <p>
+    Dans « Réglages → Données », vous pouvez activer la synchronisation iCloud et créer à tout
+    moment un export complet.
+  </p>
+
+  <h3>Comment restaurer un achat ?</h3>
+  <p>
+    Touchez « Restaurer les achats » dans les réglages. Vous devez être connecté avec le même
+    compte Apple que celui avec lequel vous avez acheté.
+  </p>
+
+  <h3>Comment résilier mon abonnement ?</h3>
+  <p>
+    Dans les réglages d’iOS, sous « Compte Apple → Abonnements → Whistlebook Pro ». La résiliation
+    doit intervenir au plus tard 24 heures avant la fin de la période en cours.
+  </p>
+
+  <h3>Ma fédération ou ma ligue régionale est absente.</h3>
+  <p>
+    Écrivez-moi de quelle fédération il s’agit et où sont publiées les dispositions (durées de
+    jeu, délais, exclusions temporaires, système de rapports). En attendant, vous pouvez choisir
+    le profil le plus proche ; le modèle de durée de jeu et les délais se règlent dans les
+    réglages.
+  </p>
+
+  <h2>Mentions juridiques</h2>
+  <p>
+    <a href="impressum.html">Mentions légales</a> ·
+    <a href="privacy.html">Politique de confidentialité</a> ·
+    <a href="terms.html">Conditions d’utilisation</a>
+  </p>
+</section>
+<section data-lang="es">
+  <h1>Ayuda y contacto</h1>
+  <p class="updated">Whistlebook para iPhone y Apple Watch</p>
+
+  <h2>Contacto</h2>
+  <p>
+    ¿Tienes preguntas, errores o sugerencias? Escríbeme a
+    <a href="mailto:jonas.polenz@software-development.net?subject=Whistlebook">jonas.polenz@software-development.net</a>.
+    Ayuda mucho que indiques la versión de la app (Ajustes → al final de la pantalla), tu
+    dispositivo y una breve descripción de lo que hiciste. Por favor, no adjuntes informes con
+    nombres de jugadores ni de otras personas.
+  </p>
+
+  <h2>Preguntas frecuentes</h2>
+
+  <h3>El Apple Watch no muestra mi partido en el iPhone.</h3>
+  <p>
+    Abre Whistlebook en el iPhone una vez terminado el partido y deja el Watch cerca. El Watch
+    transfiere el partido en cuanto ambos dispositivos están conectados; no se pierde nada, aunque
+    tarde unos minutos.
+  </p>
+
+  <h3>¿Qué pasa si el Watch se reinicia durante el partido?</h3>
+  <p>
+    El reloj del partido se calcula a partir de marcas de tiempo. Tras el reinicio, la app vuelve
+    a mostrar la hora correcta y todos los eventos ya registrados están guardados.
+  </p>
+
+  <h3>¿Cómo hago una copia de seguridad de mis datos?</h3>
+  <p>
+    En «Ajustes → Datos» puedes activar la sincronización con iCloud y crear en cualquier momento
+    una exportación completa («Exportar todos los datos»).
+  </p>
+
+  <h3>¿Cómo restauro una compra?</h3>
+  <p>
+    Toca «Restaurar compras» en Ajustes. Debes haber iniciado sesión con la misma cuenta de Apple
+    con la que hiciste la compra.
+  </p>
+
+  <h3>¿Cómo cancelo mi suscripción?</h3>
+  <p>
+    En los ajustes de iOS, en «Ajustes → Cuenta de Apple → Suscripciones → Whistlebook Pro». La
+    cancelación debe realizarse como muy tarde 24 horas antes de que finalice el periodo en curso.
+  </p>
+
+  <h3>Falta mi federación o mi federación territorial.</h3>
+  <p>
+    Escríbeme de qué federación se trata y dónde se publican sus normas (duración de los partidos,
+    plazos, expulsiones temporales, sistema de informes). Mientras tanto puedes elegir el perfil
+    más próximo; la plantilla de duración del partido y los plazos se configuran en Ajustes.
+  </p>
+
+  <h2>Información legal</h2>
+  <p>
+    <a href="impressum.html">Aviso legal</a> ·
+    <a href="privacy.html">Política de privacidad</a> ·
+    <a href="terms.html">Condiciones de uso</a>
+  </p>
+</section>
+<section data-lang="it">
+  <h1>Aiuto &amp; contatti</h1>
+  <p class="updated">Whistlebook per iPhone e Apple Watch</p>
+
+  <h2>Contatto</h2>
+  <p>
+    Domande, errori o desideri? Scrivimi a
+    <a href="mailto:jonas.polenz@software-development.net?subject=Whistlebook">jonas.polenz@software-development.net</a>.
+    Sono utili la versione dell’app (Impostazioni → in fondo), il tuo dispositivo e una breve
+    descrizione di ciò che hai fatto. Per favore non allegare referti con nomi di giocatori o di
+    altre persone.
+  </p>
+
+  <h2>Domande frequenti</h2>
+
+  <h3>L’Apple Watch non mostra la mia partita sull’iPhone.</h3>
+  <p>
+    Dopo la partita apri una volta Whistlebook sull’iPhone e tieni il Watch nelle vicinanze. Il
+    Watch trasferisce la partita non appena i due dispositivi sono collegati; non si perde nulla,
+    anche se ci vogliono alcuni minuti.
+  </p>
+
+  <h3>Cosa succede se il Watch si riavvia durante la partita?</h3>
+  <p>
+    Il cronometro viene calcolato a partire da marche temporali. Dopo il riavvio l’app mostra di
+    nuovo l’ora corretta e tutti gli eventi già registrati sono salvati.
+  </p>
+
+  <h3>Come faccio il backup dei miei dati?</h3>
+  <p>
+    In «Impostazioni → Dati» puoi attivare la sincronizzazione iCloud e creare in qualsiasi momento
+    un’esportazione completa.
+  </p>
+
+  <h3>Come ripristino un acquisto?</h3>
+  <p>
+    Nelle Impostazioni tocca «Ripristina acquisti». Devi aver effettuato l’accesso con lo stesso
+    account Apple con cui hai acquistato.
+  </p>
+
+  <h3>Come disdico il mio abbonamento?</h3>
+  <p>
+    Nelle impostazioni di iOS alla voce «Account Apple → Abbonamenti → Whistlebook Pro». La
+    disdetta deve avvenire al più tardi 24 ore prima della scadenza del periodo in corso.
+  </p>
+
+  <h3>La mia federazione o la mia federazione regionale non c’è.</h3>
+  <p>
+    Scrivimi di quale federazione si tratta e dove sono pubblicate le disposizioni (durata delle
+    partite, scadenze, espulsioni temporanee, sistema dei referti). Nel frattempo puoi scegliere il
+    profilo più vicino; il modello di durata della partita e le scadenze li imposti nelle
+    Impostazioni.
+  </p>
+
+  <h2>Note legali</h2>
+  <p>
+    <a href="impressum.html">Note legali</a> ·
+    <a href="privacy.html">Informativa sulla privacy</a> ·
+    <a href="terms.html">Condizioni d’uso</a>
+  </p>
+</section>
+
+<footer>
+  <span data-lang="de"><a href="impressum.html#de">Impressum</a> <a href="privacy.html#de">Datenschutzerklärung</a> <a href="terms.html#de">Nutzungsbedingungen</a> <a href="support.html#de">Hilfe &amp; Kontakt</a></span>
+  <span data-lang="en"><a href="impressum.html#en">Legal notice</a> <a href="privacy.html#en">Privacy Policy</a> <a href="terms.html#en">Terms of Use</a> <a href="support.html#en">Help &amp; contact</a></span>
+  <span data-lang="nl"><a href="impressum.html#nl">Colofon</a> <a href="privacy.html#nl">Privacyverklaring</a> <a href="terms.html#nl">Gebruiksvoorwaarden</a> <a href="support.html#nl">Hulp &amp; contact</a></span>
+  <span data-lang="fr"><a href="impressum.html#fr">Mentions légales</a> <a href="privacy.html#fr">Politique de confidentialité</a> <a href="terms.html#fr">Conditions d’utilisation</a> <a href="support.html#fr">Aide &amp; contact</a></span>
+  <span data-lang="es"><a href="impressum.html#es">Aviso legal</a> <a href="privacy.html#es">Política de privacidad</a> <a href="terms.html#es">Condiciones de uso</a> <a href="support.html#es">Ayuda y contacto</a></span>
+  <span data-lang="it"><a href="impressum.html#it">Note legali</a> <a href="privacy.html#it">Informativa sulla privacy</a> <a href="terms.html#it">Condizioni d’uso</a> <a href="support.html#it">Aiuto e contatti</a></span>
+</footer>
+
+<script>
+  (function () {
+    var langs = ['de', 'en', 'nl', 'fr', 'es', 'it'];
+    function show(lang) {
+      document.querySelectorAll('.langbar a').forEach(function (l) { l.classList.toggle('active', l.dataset.set === lang); });
+      document.querySelectorAll('section[data-lang]').forEach(function (s) { s.classList.toggle('active', s.dataset.lang === lang); });
+      document.querySelectorAll('footer [data-lang]').forEach(function (s) { s.hidden = s.dataset.lang !== lang; });
+      document.documentElement.lang = lang;
+    }
+    document.querySelectorAll('.langbar a').forEach(function (link) {
+      link.addEventListener('click', function (event) {
+        event.preventDefault();
+        show(link.dataset.set);
+        history.replaceState(null, '', '#' + link.dataset.set);
+      });
+    });
+    // Language from the link (#en, ?lang=en, as the app sends it), else the browser language, else German.
+    var wanted = (location.hash.slice(1) || new URLSearchParams(location.search).get('lang') || navigator.language || 'de').slice(0, 2).toLowerCase();
+    show(langs.indexOf(wanted) >= 0 ? wanted : 'de');
+  })();
+</script>
+</body>
+</html>
